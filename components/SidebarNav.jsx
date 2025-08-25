@@ -52,7 +52,7 @@ export default function SidebarNav() {
             className="font-bold text-black hover:text-gray-600 transition-colors duration-300
                        text-[2vw] max-md:text-[3vh]"
           >
-            Y
+            AAYU
           </Link>
         </div>
 
@@ -75,14 +75,14 @@ export default function SidebarNav() {
             </a>
           </div>
 
-          <div className="bg-gray-300 h-[8vh] w-[0.2vw] max-md:w-[0.2vh]"></div>
+          {/* <div className="bg-gray-300 h-[8vh] w-[0.2vw] max-md:w-[0.2vh]"></div> */}
 
          
           <div
             className="transform rotate-90 text-gray-600 whitespace-nowrap
-                       text-[1.5vw]"
+                       text-[1.5vw] mt-[40%]"
           >
-            hello@nishadroch.com
+            hello@aayu.com
           </div>
         </div>
       </div>
