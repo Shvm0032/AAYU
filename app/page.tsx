@@ -2,19 +2,16 @@ export default function Home() {
   return (
     <div className="text-center space-y-8">
       <div className="space-y-4">
-        <h1 className="text-5xl lg:text-7xl font-light text-black tracking-wide">
-          Creative
+        <h1 
+        className="text-5xl lg:text-7xl  font-semibold text-black tracking-wide text-left font-[var(--font-merriweather)]">
+          Experience Authentic Ayurveda with Aayu Yoga Amit
         </h1>
-        <h2 className="text-3xl lg:text-5xl font-light text-gray-600 tracking-wide">
-          Portfolio
-        </h2>
+       
       </div>
       
-      <div className="max-w-2xl mx-auto">
-        <p className="text-lg text-gray-600 leading-relaxed">
-          Welcome to my creative space. I'm a designer and creative professional 
-          passionate about crafting beautiful, functional experiences that inspire 
-          and connect with people.
+      <div className="max-w-2xl ">
+        <p className="text-lg text-gray-600 leading-relaxed text-left">
+          Discover the power of Ayurveda with Aayu Yoga Amit. We offer authentic Ayurvedic products, natural remedies, and holistic wellness solutions for a healthier, balanced lifestyle.
         </p>
       </div>
 
