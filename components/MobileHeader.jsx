@@ -7,11 +7,18 @@ import { Menu, X } from "lucide-react"; // Menu = Hamburger, X = Close
 export default function MobileHeader() {
   const [isOpen, setIsOpen] = useState(false);
 
+  // const menuItems = [
+  //   { name: "Home", href: "/" },
+  //   { name: "About", href: "/about" },
+  //   { name: "Contact", href: "/contact" },
+  //   { name: "Store", href: "/store" },
+  // ];
+
   const menuItems = [
     { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
-    { name: "Contact", href: "/contact" },
-    { name: "Store", href: "/store" },
+    { name: "About", href: "/#" },
+    { name: "Contact", href: "/#" },
+    { name: "Store", href: "/#" },
   ];
 
   return (
