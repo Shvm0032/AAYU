@@ -1,13 +1,16 @@
 "use client";
 
-import SidebarNav from './SidebarNav';
+import SidebarNav from "./SidebarNav";
 
 export default function Layout({ children }) {
   return (
-    <div className="min-h-screen bg-white relative overflow-x-hidden">
+    <div className="bg-white relative overflow-x-hidden" style={{ minHeight: "100vh" }}>
       <SidebarNav />
-      <main className="px-20 lg:px-32 py-12 min-h-screen flex items-center justify-center">
-        <div className="max-w-4xl mx-auto w-full">
+      <main
+        className="flex items-center justify-center px-[4%] py-[4%] md:pl-[12vw] md:pt-[6vh]  md:pb-[6vh] md:pr-[12vw]"
+       
+      >
+        <div className="mx-auto" style={{ width: "100%" }}>
           {children}
         </div>
       </main>
