@@ -18,12 +18,20 @@ export default function SidebarNav() {
   const [isOverlayOpen, setIsOverlayOpen] = useState(false);
   const pathname = usePathname();
 
-  const menuItems = [
+  // const menuItems = [
+  //   { name: "Home", href: "/" },
+  //   { name: "About", href: "/about" },
+  //   { name: "Contact", href: "/contact" },
+  //   { name: "Store", href: "/store" },
+  // ];
+
+   const menuItems = [
     { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
-    { name: "Contact", href: "/contact" },
-    { name: "Store", href: "/store" },
+    { name: "About", href: "/#" },
+    { name: "Contact", href: "/#" },
+    { name: "Store", href: "/#" },
   ];
+
 
   const socialLinks = [
     { icon: Instagram, href: "#", label: "Instagram" },
