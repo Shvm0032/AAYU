@@ -3,14 +3,14 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import founderImg from "@/public/home/f1.webp";
+import founderImg from "@/public/home/f1.jpg";
 
 const HomeAboutUs = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      once: false,  // har bar animation chale jab element viewport me aaye
-      mirror: true, // scroll back pe bhi chale
+      once: false, 
+      mirror: true, 
     });
   }, []);
 
